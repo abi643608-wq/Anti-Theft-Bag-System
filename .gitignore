@@ -22,3 +22,30 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# ESP32 firmware and private local configuration
+**/Secrets.h
+**/*-private.json
+.env
+.env.*
+!.env.example
+build/
+private-build/
+*.bin
+*.elf
+*.map
+*.log
+.vscode/
+.idea/
+**/*-private.json
+.env
+.env.*
+!.env.example
+build/
+private-build/
+*.bin
+*.elf
+*.map
+*.log
+.vscode/
+.idea/
